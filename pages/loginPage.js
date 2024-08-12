@@ -7,7 +7,7 @@ this.page=page;
 this.emailInput="#email";
 this.passwordInput="#password";
 this.loginButton ="(//button[normalize-space()='Sign in'])[1]";
-this.productPage="(//a[@class='bg-gray-200 group flex gap-x-3 rounded-md p-2 text-sm leading-6 font-semibold transition-all'])[1]";
+this.productPage="(//a[normalize-space()='Products'])[1]";
     }
 async gotologin(){
 
